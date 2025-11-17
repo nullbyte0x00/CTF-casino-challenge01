@@ -15,10 +15,10 @@ services:
     image: mysql:8.0
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root # feel free to change this secure password
       MYSQL_DATABASE: casino
-      MYSQL_USER: user
-      MYSQL_PASSWORD: secret
+      MYSQL_USER: user # feel free to change this secure user
+      MYSQL_PASSWORD: secret # feel free to change this secure password
     ports:
       - "3306:3306"
     volumes:
